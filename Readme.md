@@ -1,4 +1,4 @@
-### UUID Generator
+UUID Generator
 =================================
 
 This app generates, stores and serve random UUIDs(Univerally unique identifier) through an api endpoint `/ids`.
