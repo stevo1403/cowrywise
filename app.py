@@ -54,6 +54,7 @@ def get_ids():
         
         j_data = json.dumps(data, indent=2)
         response = app.make_response(j_data)
+        response.mimetype = "application/json"
         return response
 
 if __name__ == '__main__':
